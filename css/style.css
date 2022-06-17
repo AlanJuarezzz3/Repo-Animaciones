@@ -204,7 +204,26 @@ section h2{
 .estilo .info-container h3{
   margin: 0;
 }
-
+.estilo .info-container h3,
+.estilo .info-container strong,
+.estilo .info-container span{
+  padding: 5px 15px;
+  width: 100%;
+}
+.estilo .add-cart{
+  margin-top: 2px;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 25px;
+}
+.estilo .add-cart:hover{
+  color: black;
+  background-color: transparent;
+  border: 1px solid black;
+}
 /*Fin de productos 
 comienzo de NOSOTROS */
 
