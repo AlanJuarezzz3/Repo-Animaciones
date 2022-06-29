@@ -3,44 +3,12 @@
   padding: 0;
   box-sizing: border-box; }
 
-body {
-  background-image: url(../img/fondo.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  height: 1800px;
-  background-attachment: fixed;
-  background-size: cover; }
-
-.bienvenido {
-  margin: auto;
-  text-align: center;
-  color: #222020;
-  background-color: #7c107c;
-  font-weight: normal;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
-
 .logo {
   max-height: 130px;
   max-width: 130px; }
 
 .headerPag1 {
   width: 100%; }
-
-.enlace {
-  font-weight: bold;
-  list-style: none;
-  display: flex;
-  height: 50px;
-  align-items: center;
-  justify-content: space-between;
-  font-size: 20px;
-  text-decoration: none;
-  margin: 10px;
-  box-shadow: 5px 5px 5px 1px #000;
-  background: gray; }
-  .enlace:hover {
-    text-decoration: underline;
-    font-size: 30px; }
 
 .form-register {
   width: 400px;
