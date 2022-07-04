@@ -1,3 +1,27 @@
+body {
+  background-image: url(../img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 1800px;
+  background-attachment: fixed;
+  background-size: cover; }
+
+.enlace {
+  font-weight: bold;
+  list-style: none;
+  display: flex;
+  height: 50px;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+  text-decoration: none;
+  margin: 10px;
+  box-shadow: 5px 5px 5px 1px #000;
+  background: #4d4949; }
+  .enlace:hover {
+    text-decoration: underline;
+    font-size: 30px; }
+
 * {
   margin: 0;
   padding: 0;
@@ -18,7 +42,7 @@
   margin-top: 100px;
   border-radius: 4px;
   font-family: 'calibri';
-  color: white;
+  color: snow;
   box-shadow: 7px 13px 37px #000; }
   .form-register h4 {
     font-size: 22px;
@@ -33,7 +57,7 @@
   border: 1px solid #1f53c5;
   font-family: 'calibri';
   font-size: 18px;
-  color: white; }
+  color: snow; }
 
 .form-register p {
   height: 40px;
@@ -42,7 +66,7 @@
   line-height: 40px; }
 
 .form-register a {
-  color: white;
+  color: snow;
   text-decoration: none; }
   .form-register a:hover {
     color: white;
@@ -111,7 +135,7 @@ comienzo de productos */
   padding: 50px 0; }
 
 .clasH3 h3 {
-  background-color: gray; }
+  background-color: #4d4949; }
 
 section h2 {
   width: 100%;

@@ -1,3 +1,6 @@
+@import "vars";
+@import "body";
+@import "enlace";
 * {
   margin: 0;
   padding: 0;
@@ -21,7 +24,7 @@
   margin-top: 100px;
   border-radius: 4px;
   font-family: 'calibri';
-  color: white;
+  color: $color-blanco;
   box-shadow: 7px 13px 37px #000;
 
   h4 {
@@ -39,7 +42,7 @@
   border: 1px solid #1f53c5;
   font-family: 'calibri';
   font-size: 18px;
-  color: white;
+  color:$color-blanco;
 }
 
 .form-register {
@@ -51,7 +54,7 @@
   }
 
   a {
-    color: white;
+    color: $color-blanco;
     text-decoration: none;
 
     &:hover {
@@ -131,8 +134,7 @@ div {
 /* fin pagina principal 
 
 comienzo de productos */
-
-.clasProductos {
+@mixin productoCL{
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -140,8 +142,12 @@ comienzo de productos */
   padding: 50px 0;
 }
 
+.clasProductos {
+  @include productoCL;
+}
+
 .clasH3 h3 {
-  background-color: gray;
+  background-color: $color-gris;
 }
 
 section h2 {
